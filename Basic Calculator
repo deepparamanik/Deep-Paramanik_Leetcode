@@ -3,13 +3,20 @@ int main()
 {
 	float a,b;
 	int c;
-    printf("\n\n Enter your choice(1,2,3,4,5)");
-    scanf("%d",&c);
-    printf("Enter two numbers:");
-    scanf("%f%f",&a,&b);
-    if(c==1)
-    printf("addition=%f",a+b);
-    if(c==2)
+	printf("n1.addition:");
+        printf("\n2.suntraction:");
+	printf("\n3.multiplication:");
+	printf("\n4dividation:");
+	printf("\n5.remainder:");
+	printf("\n\n Enter your choice(1,2,3,4,5):");
+        scanf("%d",&c);
+        printf("\nEnter the 1st numbers:");
+        scanf("%f",&a);
+        printf("\nEnter the 2nd numbers:");
+        scanf("%f",&b);
+        if(c==1)
+        printf("addition=%f",a+b);
+        if(c==2)
 	printf("Subtrationm=%f",a-b);
 	if(c==3)
 	printf("multiplication=%f",a*b);
